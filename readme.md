@@ -11,6 +11,9 @@
   - #### git
     - [SWIFTNICKEL](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/exploit/git/swiftnickel)
 
+  - #### hash
+    - [DELIVERYTRIAL](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/exploit/hash/deliverytrial)
+
   - #### jetty
     - [GRENADESALAD](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/exploit/jetty/grenadesalad)
 
