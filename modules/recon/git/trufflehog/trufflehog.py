@@ -1,9 +1,9 @@
 from recon.core.module import BaseModule
 from recon.core.framework import Colors
 from pydoc import pager
-from uuid import uuid4
 from git import Repo
 import datetime
+import tempfile
 import string
 import shutil
 import math
@@ -57,9 +57,8 @@ class Module(BaseModule):
     def find_strings(self, git_url):
         HEX_CHARS = "1234567890abcdefABCDEF"
         BASE64_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
-        new_project = str(uuid4())
         home_path = os.path.expanduser("~/")
-        project_path = os.path.join(home_path, "TRUFFLEHOG", new_project)
+        project_path = tempfile.mkdtemp()
 
         Repo.clone_from(git_url, project_path)
 
@@ -106,5 +105,4 @@ class Module(BaseModule):
                             # press "ctrl+c" then press "q" to exit viewing all commits.
                             pager(printableDiff)
                 prev_commit = curr_commit
-        # Doesn't remove all paths, all the time
         shutil.rmtree(project_path)
