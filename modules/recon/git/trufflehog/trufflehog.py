@@ -7,7 +7,6 @@ import tempfile
 import string
 import shutil
 import math
-import sys
 
 class Module(BaseModule):
 
