@@ -1,6 +1,9 @@
 # PASTRYCONTROL
 [recon-ng](https://bitbucket.org/LaNMaSteR53/recon-ng) modules.
 
+## Dependencies
+- [requirements.txt](https://github.com/gwaffles/PASTRYCONTROL/blob/master/requirements.txt)
+
 ## Module list
 
 - ### Exploit modules
