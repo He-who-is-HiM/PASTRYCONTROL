@@ -27,7 +27,10 @@
     - [MISSILEJUDGE](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/exploit/wpa2/missilejudge)
 
 - ### Recon modules
-  - Search
+  - #### git
+    - [TRUFFLEHOG](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/recon/git/trufflehog)
+
+  - #### Search
     - People
       - College
         - [BRICKVALLEY](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/recon/search/people/college/brickvalley)
