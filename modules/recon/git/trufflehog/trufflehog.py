@@ -8,7 +8,6 @@ import string
 import shutil
 import math
 import sys
-import os
 
 class Module(BaseModule):
 
@@ -57,7 +56,6 @@ class Module(BaseModule):
     def find_strings(self, git_url):
         HEX_CHARS = "1234567890abcdefABCDEF"
         BASE64_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
-        home_path = os.path.expanduser("~/")
         project_path = tempfile.mkdtemp()
 
         Repo.clone_from(git_url, project_path)
