@@ -27,9 +27,9 @@
     - [MISSILEJUDGE](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/exploit/wpa2/missilejudge)
 
 - ### Recon modules
-  - ### enumerate
-    - ### email
-      - #### git
+  - #### enumerate
+    - email
+      - git
         - [LOTIONGRILL](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/recon/enumerate/email/git/lotiongrill)
       - #### webpage
         - [DIGESTIONCLOTH](https://github.com/gwaffles/PASTRYCONTROL/tree/master/modules/recon/enumerate/email/webpage/digestioncloth)
